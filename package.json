@@ -1,6 +1,6 @@
 {
   "name": "node-kitsu",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Easily pull data from kitsu.io",
   "main": "main.js",
   "scripts": {

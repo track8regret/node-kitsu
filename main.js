@@ -165,7 +165,7 @@ exports.getUser = function(username) {
     return new Promise(function(resolve, reject) {
         request({
             method: 'GET',
-            url: 'https://kitsu.io/api/edge/users?filter[name]=' + username,
+            url: 'https://kitsu.io/api/edge/users?filter[slug]=' + username + '&fields[users]=name,slug',
             headers: {
                 'Content-Type': 'application/vnd.api+json',
                 'Accept': 'application/vnd.api+json'
